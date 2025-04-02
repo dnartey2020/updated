@@ -257,7 +257,7 @@ function getStatusColor(status: string | null): string {
       return "bg-yellow-200 text-yellow-800";
     case "information received":
       return "bg-gray-200 text-gray-800";
-    case "failed":
+    case "on hold":
       return "bg-red-200 text-red-800";
     default:
       return "bg-gray-200 text-gray-800";
